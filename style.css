@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:skyblue;
+    height:100vh;
+}
+.container{
+    width:600px;
+    background:white;
+    padding: 20px;
+    border-radius: 20px;
+}
+header{
+    font-size:40px;
+    font-weight:bold;
+   
+}
+
+.btn{
+   background:skyblue;
+   padding:10px;
+   color:white;
+   margin-left: 450px;
+   cursor: pointer;
+   border: none;
+}
+.buttons li {
+    list-style: none;
+    display: inline;
+    margin-right: 5px;
+}
+ .features i{
+    margin-right: 15px;
+    border-radius:50%;
+    background:skyblue;
+    padding:15px;
+    cursor: pointer;
+}
